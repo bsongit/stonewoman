@@ -6,4 +6,8 @@ inputCheck();
 playerStateCheck();
 image_xscale = xOrientation;
 
+if(global.button_Debbug_pressed){
+	objDebbuger.visible = !objDebbuger.visible;
+}
+
 
